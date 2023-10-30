@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="outer-wrapper">
+        <div class="wrapper">
+            <div class="left">
+                <img src="./img/air-force-1-07-lv8-mens-shoes-m3vNSR.png" alt="sneaker">
+                <hr />
+                <p>Nike Air Force 1 '07 LV8</p>
+                <p>Color: Blue</p>
+                <h2>TOTAL: 300$</h2>
+            </div>
+            <div class="right">
+                <form action="">
+                    <label for="name">NAME *</label>
+                    <input type="text" required>
+                    <label for="card-num">CARD NUMBER *</label>
+                    <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                        maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                    <label for="expire">EXPIERS *</label>
+                    <input type="month" name="" id="">
+                    <label for="cvc">CVC *</label>
+                    <input type="tel" pattern="\d*" maxlength="4">
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
