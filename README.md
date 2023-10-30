@@ -1,1 +1,1 @@
-# cred-card-checkout-design
+# credit-card-checkout-design
